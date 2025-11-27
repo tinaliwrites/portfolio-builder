@@ -31,7 +31,7 @@ const Resume = () => {
                                     <ul className="space-y-1 text-sm text-muted-foreground/80">
                                         <li className="flex gap-3">
                                             <span className="text-primary/60 text-xs mt-[3px] shrink-0">○</span>
-                                            <span>Led editorial vision for the longform narrative magazine about Yale and New Haven (5 issues/year)</span>
+                                            <span>Shaped editorial vision for the longform narrative magazine about Yale and New Haven (5 issues/year)</span>
                                         </li>
                                         <li className="flex gap-3">
                                             <span className="text-primary/60 text-xs mt-[3px] shrink-0">○</span>
