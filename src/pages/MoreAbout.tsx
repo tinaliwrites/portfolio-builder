@@ -149,7 +149,7 @@ const MoreAbout = () => {
                             </li>
                             <li className="flex gap-3">
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <a href="https://www.avabear.xyz/p/the-friendship-theory-of-everything" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Ava Xiong, “the friendship theory of everything”</a>
+                                <a href="https://www.avabear.xyz/p/the-friendship-theory-of-everything" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">The friendship theory of everything</a>
                             </li>
                         </ul>
                     </FadeInSection>
