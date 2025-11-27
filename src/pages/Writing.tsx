@@ -208,7 +208,7 @@ const Writing = () => {
       title: "Policy",
       introContent: (
         <div className="relative p-4 flex items-center bg-muted/30 rounded-lg h-full">
-          <p className="text-lg leading-tight text-black relative z-10 font-serif text-right w-full text-balance">
+          <p className="text-xl leading-tight text-black relative z-10 font-serif text-right w-full text-balance">
             As recent federal directives roil campuses and cities, I told stories showing how these disruptions play out on the ground.
           </p>
         </div>
