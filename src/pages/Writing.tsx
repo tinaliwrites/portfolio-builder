@@ -58,7 +58,7 @@ const Writing = () => {
           subhead: "After the collapse of high-profile vertical farming ventures, a new wave of agrobotics startups is emerging in the Sacramento-Davis corridor. Attuned to farmers’ needs, their promises may also come with pressures for local workers.",
           publication: "The Sacramento Bee",
           date: "August 5, 2025",
-          image: "/portfolio-builder/images/agtech.jpg",
+          image: "/images/agtech.jpg",
           link: "https://www.sacbee.com/news/business/article311542464.html"
         },
         {
@@ -66,7 +66,7 @@ const Writing = () => {
           subhead: "One of the first in-depth looks at how regional tech ecosystems outside Silicon Valley are positioning themselves in the AI economy.",
           publication: "The Sacramento Bee",
           date: "July 26, 2025",
-          image: "/portfolio-builder/images/blaize.jpg",
+          image: "/images/blaize.jpg",
           link: "https://www.sacbee.com/news/business/article311270530.html#storylink=cpy"
         },
         {
@@ -74,7 +74,7 @@ const Writing = () => {
           subhead: "After four years of investing in upgrades and serving the New Haven community, Zaroka Bar & Grill’s owner says he is now forced to leave—with little compensation and closure.",
           publication: "Yale Daily News",
           date: "Apr 24, 2025",
-          image: "/portfolio-builder/images/zaroka.jpg",
+          image: "/images/zaroka.jpg",
           link: "https://yaledailynews.com/blog/2025/04/24/yale-pushed-zaroka-to-close-early-citing-structural-instability/"
         }
       ],
@@ -153,7 +153,7 @@ const Writing = () => {
           subhead: "With the Trump administration’s threat to pull $4 billion in funding, California’s bullet train faces mounting questions over costs, ridership and whether its scaled-back Central Valley segment can still justify the investment.",
           publication: "The Sacramento Bee",
           date: "April 25, 2025",
-          image: "/portfolio-builder/images/high-speed-rail.jpg",
+          image: "/images/high-speed-rail.jpg",
           link: "https://www.sacbee.com/news/california/article311641410.html"
         },
         {
@@ -161,7 +161,7 @@ const Writing = () => {
           subhead: "Since 2019, forty-four pedestrians and cyclists have been killed on New Haven streets. In this cover feature, I dive into New Haven's deadly history of urban renewal and the current bureaucracy slowing progress.",
           publication: "The New Journal",
           date: "February 15, 2025",
-          image: "/portfolio-builder/images/long-ride-home.jpg",
+          image: "/images/long-ride-home.jpg",
           link: "https://thenewjournalatyale.com/2025/02/the-long-ride-home/"
         },
         {
@@ -169,7 +169,7 @@ const Writing = () => {
           subhead: "(with visual graphics I created myself)",
           publication: "The Sacramento Bee",
           date: "Jul 10, 2025",
-          image: "/portfolio-builder/images/daylighting.jpg",
+          image: "/images/daylighting.jpg",
           link: "https://www.sacbee.com/news/local/article310316735.html"
         },
         {
@@ -191,7 +191,7 @@ const Writing = () => {
           subhead: "",
           publication: "The Sacramento Bee",
           date: "June 23, 2025",
-          image: "/portfolio-builder/images/drunk-driver.jpg",
+          image: "/images/drunk-driver.jpg",
           link: "https://www.sacbee.com/news/local/article309104730.html#storylink=cpy"
         },
         {
@@ -199,7 +199,7 @@ const Writing = () => {
           subhead: "",
           publication: "The Sacramento Bee",
           date: "June 11, 2025",
-          image: "/portfolio-builder/images/speed-cameras.jpg",
+          image: "/images/speed-cameras.jpg",
           link: "https://www.sacbee.com/news/local/transportation/article308223445.html"
         }
       ],
@@ -219,7 +219,7 @@ const Writing = () => {
           subhead: "More than 100,000 in San Francisco use the benefits. The more who get squeezed out, the harder for low-cost food sellers to serve them, even with the state’s bonus boost.",
           publication: "The Frisc",
           date: "July 17, 2025",
-          image: "/portfolio-builder/images/snap-cuts.jpg",
+          image: "/images/snap-cuts.jpg",
           link: "https://thefrisc.com/trump-snap-cuts-risk-business-at-this-historic-sf-farmers-market/"
         },
         {
@@ -227,7 +227,7 @@ const Writing = () => {
           subhead: "STEM researchers entered academia to push the frontiers of knowledge, but recent federal cuts force them to reconsider their dreams.",
           publication: "The New Journal",
           date: "September 28, 2025",
-          image: "/portfolio-builder/images/unforced-error.jpg",
+          image: "/images/unforced-error.jpg",
           link: "https://thenewjournalatyale.com/2025/09/unforced-error/"
         }
       ],
@@ -247,7 +247,7 @@ const Writing = () => {
           subhead: "Meet the stars of the New Haven Independent’s comments section.",
           publication: "The New Journal",
           date: "September 20, 2024",
-          image: "/portfolio-builder/images/independent-declarations.jpg",
+          image: "/images/independent-declarations.jpg",
           link: "https://thenewjournalatyale.com/2024/09/independent-declarations/"
         },
         {
@@ -255,7 +255,7 @@ const Writing = () => {
           subhead: "As Chinese American takeout restaurateurs across the country retire, a husband-wife duo from Yale is seeking to innovate and automate the cuisine. I profile them and reckon with my own family’s history in the business.",
           publication: "The Yale Herald",
           date: "November 17, 2024",
-          image: "/portfolio-builder/images/restaurant-days.jpg",
+          image: "/images/restaurant-days.jpg",
           link: "https://yale-herald.com/2024/11/17/restaurant-days/"
         },
         {
@@ -263,7 +263,7 @@ const Writing = () => {
           subhead: "Keeping tempo with the Yale student band scene.",
           publication: "The New Journal",
           date: "February 14, 2024",
-          image: "/portfolio-builder/images/asian-american-changemakers.jpg",
+          image: "/images/asian-american-changemakers.jpg",
           link: "https://thenewjournalatyale.com/2024/02/striking-a-chord/"
         },
         {
@@ -271,7 +271,7 @@ const Writing = () => {
           subhead: "A generation of Asian American leaders are finding their own ways to fight for change in New Haven.",
           publication: "Yale Daily News",
           date: "April 12, 2025",
-          image: "/portfolio-builder/images/striking-a-chord.jpg",
+          image: "/images/striking-a-chord.jpg",
           link: "https://yaledailynews.com/blog/2025/04/12/new-havens-asian-american-changemakers/"
         },
         {
@@ -279,7 +279,7 @@ const Writing = () => {
           subhead: "A troupe of cowboys, wagoneers, and visitors travel a historic Tahoe route and build community—at a clip of about three and a half miles per hour.",
           publication: "The Sacramento Bee",
           date: "June 7, 2025",
-          image: "/portfolio-builder/images/wagon-train.jpg",
+          image: "/images/wagon-train.jpg",
           link: "https://www.sacbee.com/news/local/article308077275.html#storylink=cpy"
         }
       ]

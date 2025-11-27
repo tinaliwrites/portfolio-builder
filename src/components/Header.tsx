@@ -10,8 +10,8 @@ const Header = () => {
         </h1>
         <nav className="flex justify-center gap-8 text-base">
           <Link
-            to="/"
-            className={`text-primary hover:underline decoration-primary ${location.pathname === "/" ? "underline" : "no-underline"}`}
+            to="/about"
+            className={`text-primary hover:underline decoration-primary ${location.pathname === "/" || location.pathname === "/about" ? "underline" : "no-underline"}`}
           >
             About
           </Link>

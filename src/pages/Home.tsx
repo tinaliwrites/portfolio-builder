@@ -17,7 +17,7 @@ const Home = () => {
               My reporting interests span business, technology, transportation, and politics. I write stories that contextualize company deals and infrastructure sagas; draw out the culture of an industry, city, or community; and tell the human experiences impacted by abstract policy. I love journalism because it lets me dive into unfamiliar subjects, talk to experts and everyday people alike, and bring what I learn back to readers.
             </p>
             <p>
-              Please reach out at tina.li.tl766@yale.edu, or connect with me on <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a>.
+              Please reach out at <a href="mailto:tina.li.tl766@yale.edu" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">tina.li.tl766@yale.edu</a>, or connect with me on <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a>.
             </p>
             <p>
               While you’re here, you can read my clips and peruse my reporting journey, check out my resume, and <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">read even more about me.</Link>
