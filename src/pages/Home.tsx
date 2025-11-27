@@ -1,39 +1,29 @@
 import Header from "@/components/Header";
+import FadeInSection from "@/components/FadeInSection";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="container mx-auto max-w-3xl px-6 py-16">
-        <div className="text-center mb-12">
-          <p className="text-xl italic text-muted-foreground mb-8">
-            Writer & Essayist
-          </p>
-        </div>
-
-        <article className="prose prose-lg max-w-none">
-          <h2 className="text-3xl mb-6 font-normal">About</h2>
-          
-          <p className="mb-4">
-            I write essays on culture, technology, and the ideas that shape our world. 
-            My work explores the intersection of literature, philosophy, and contemporary life.
-          </p>
-
-          <p className="mb-4">
-            This is a space for long-form thinking and careful observation. I believe in 
-            taking the time to develop ideas fully, drawing connections between disparate 
-            fields, and writing with clarity and precision.
-          </p>
-
-          <p className="mb-4">
-            You can find my recent essays in the Writing section, or browse through the 
-            books that have influenced my thinking over the years.
-          </p>
-
-          <p className="text-muted-foreground mt-12">
-            Subscribe via <a href="/rss">RSS</a> to stay updated with new essays.
-          </p>
-        </article>
+      <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
+        <FadeInSection>
+          <div className="space-y-6 text-xl leading-relaxed text-foreground/90">
+            <p>Hello! I’m Tina, a journalist and junior at Yale.</p>
+            <p>
+              I currently serve as managing editor of <em>The New Journal</em>, a narrative longform magazine about Yale and New Haven. Last summer, I interned at <em>The Sacramento Bee</em>, where I wrote about transportation and business. I’ve covered town-gown relations for the <em>Yale Daily News</em> and contributed work to <em>The Yale Herald</em> and <em>The Frisc</em> (an issues-based publication in San Francisco).
+            </p>
+            <p>
+              My reporting interests span business, technology, transportation, and politics. I write stories that contextualize company deals and infrastructure sagas; draw out the culture of an industry, city, or community; and tell the human experiences impacted by abstract policy. I love journalism because it lets me dive into unfamiliar subjects, talk to experts and everyday people alike, and bring what I learn back to readers.
+            </p>
+            <p>
+              Please reach out at <a href="mailto:tina.li.tl766@yale.edu" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">tina.li.tl766@yale.edu</a>, or connect with me on <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a>.
+            </p>
+            <p>
+              While you’re here, you can read my clips and peruse my reporting journey, check out my resume, and <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">read even more about me.</Link>
+            </p>
+          </div>
+        </FadeInSection>
       </main>
     </div>
   );
