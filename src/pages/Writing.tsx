@@ -18,7 +18,7 @@ const StoryCard = ({ story, featured, index, className }: { story: any, featured
           <div className={`shrink-0 overflow-hidden rounded-sm ${featured ? "w-full lg:w-1/2 aspect-video lg:aspect-auto lg:h-64" : "w-full aspect-video"}`}>
             <div className="h-full w-full p-2">
               <img
-                src={story.image}
+                src={`${import.meta.env.BASE_URL}${story.image.startsWith('/') ? story.image.slice(1) : story.image}`}
                 alt={story.headline}
                 className="h-full w-full object-cover rounded-md brightness-75 group-hover:brightness-100 group-hover:scale-105 transition-all duration-500"
               />
