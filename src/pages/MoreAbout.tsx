@@ -119,6 +119,17 @@ const MoreAbout = () => {
                     </FadeInSection>
 
                     <FadeInSection>
+                        <img
+                            src="/portfolio/library-landscape-cropped.jpg"
+                            alt="Library landscape"
+                            className="w-full h-auto object-cover border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px]"
+                        />
+                        <p className="font-serif italic text-sm text-muted-foreground mt-2 text-center">
+                            Me in the Pierson College library!
+                        </p>
+                    </FadeInSection>
+
+                    <FadeInSection>
                         <p>
                             My favorite films are <em>Phantom Thread</em> (Paul Thomas Anderson, 2017) and <em>Chungking Express</em> (Wong Kar-Wai, 1994). My favorite Jane Austen adaptations are <em>Persuasion</em> (1995) and BBC’s <em>Pride and Prejudice</em> miniseries (1995). Lots of great things were happening in 1995! I enjoy writing with Chopin’s Preludes, Legend of Zelda soundtracks, or instrumental jazz in the background. I love The Cure and The Smiths.
                         </p>

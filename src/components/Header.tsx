@@ -1,9 +1,33 @@
 import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const location = useLocation();
+  const [time, setTime] = useState("");
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date();
+      const timeString = now.toLocaleTimeString("en-US", {
+        timeZone: "America/New_York",
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true,
+      });
+      setTime(timeString);
+    };
+
+    updateTime();
+    const interval = setInterval(updateTime, 60000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <header className="bg-background relative">
+      <div className="absolute top-4 right-6 text-xs font-serif text-muted-foreground text-right hidden md:block">
+        <div>New Haven, CT</div>
+        <div>{time} EST</div>
+      </div>
       <div className="container mx-auto max-w-4xl px-6 py-8">
         <h1 className="text-center text-4xl font-bold mb-6 text-foreground">
           Tina Li

@@ -9,7 +9,14 @@ const Home = () => {
       <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
         <FadeInSection>
           <div className="space-y-6 text-xl leading-relaxed text-foreground/90">
-            <p>Hello! I’m Tina, a journalist and junior at Yale.</p>
+            <p>
+              <img
+                src="/portfolio/tina-headshot.png"
+                alt="Tina Li"
+                className="float-right w-64 h-64 ml-6 mb-2 object-cover border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px]"
+              />
+              Hello! I’m Tina, a journalist and junior at Yale.
+            </p>
             <p>
               I currently serve as managing editor of <em>The New Journal</em>, a narrative longform magazine about Yale and New Haven. Last summer, I interned at <em>The Sacramento Bee</em>, where I wrote about transportation and business. I’ve covered town-gown relations for the <em>Yale Daily News</em> and contributed work to <em>The Yale Herald</em> and <em>The Frisc</em>.
             </p>
